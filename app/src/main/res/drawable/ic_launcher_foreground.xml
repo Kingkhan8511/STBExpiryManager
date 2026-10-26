@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- STB / TV set-top box icon as launcher foreground -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- TV / STB box body -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M20,35 L88,35 Q92,35 92,39 L92,72 Q92,76 88,76 L20,76 Q16,76 16,72 L16,39 Q16,35 20,35 Z" />
+    <!-- Screen area -->
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M24,40 L84,40 L84,68 L24,68 Z" />
+    <!-- Stand/base -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M42,76 L66,76 L70,84 L38,84 Z" />
+    <!-- Base line -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M33,84 L75,84 Q77,84 77,86 L77,88 Q77,90 75,90 L33,90 Q31,90 31,88 L31,86 Q31,84 33,84 Z" />
+    <!-- Signal dot top right of screen -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M78,44 A4,4 0 1,1 78,44.001 Z" />
+</vector>
