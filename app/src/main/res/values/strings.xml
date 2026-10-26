@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">STB Expiry Manager</string>
+    <string name="import_file">Import File</string>
+    <string name="search_hint">Search by name or STB number…</string>
+    <string name="filter_all">All Records</string>
+    <string name="filter_today">Expiring Today</string>
+    <string name="filter_upcoming">Upcoming (3 Days)</string>
+    <string name="empty_title">No Records Found</string>
+    <string name="empty_subtitle">Tap the folder icon to import a billing report (.xls or .html).</string>
+    <string name="notification_title">STB Expiry Alert</string>
+    <string name="notification_text">%d STB(s) expiring today</string>
+    <string name="dialog_overwrite_title">Records Already Exist</string>
+    <string name="dialog_overwrite_body">The database already has records. Replace all existing records with the new import, or add new records alongside existing ones?</string>
+    <string name="overwrite">Overwrite</string>
+    <string name="append">Append</string>
+    <string name="copy_stb">Copy STB Number</string>
+</resources>

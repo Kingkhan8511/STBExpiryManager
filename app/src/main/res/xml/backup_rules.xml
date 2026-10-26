@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!--
+        Include the Room database and shared preferences in backups,
+        but exclude the WorkManager internal database to avoid stale job state.
+    -->
+    <include domain="database" path="stb_expiry.db" />
+    <exclude domain="database" path="androidx.work.workdb" />
+</full-backup-content>
